@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #f6f7fb;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.header {
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 67px;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.leftItem {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.rightItem {
+    margin-top: 12px;
+}
+
+.leftItem img {
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    cursor: pointer;
+}
+
+.logoTitle {
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    cursor: pointer;
+
+}
+
+
+
+.items {
+
+    display: flex;
+
+    margin-top: 0px;
+
+
+}
+
+.item {
+    list-style-type: none;
+
+
+
+}
+
+.item a {
+
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 12px 0 16px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    margin: 0 10px;
+
+}
+
+/*LOGOUT ICON*/
+
+
+.logout {
+    position: absolute;
+    right: 60px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.logout p {
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+
+}
+
+.logout:hover {
+    border: 2px solid #20b883;
+    background-color: #20b883;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    position: absolute;
+    top: 20px;
+    transition: background-color 0.8s ease-in-out;
+}
+
+
+
+
+
+.homepageWrapper {
+
+    margin-top: 7%;
+}
+
+.homepageHeading {
+    font-size: 30px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 750;
+    margin-left: 8%;
+}
+
+.homepageContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.leftOrderContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 8%;
+
+}
+
+.filtercheckbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.filtercheckbox p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*labels*/
+
+.orderlabel {
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+/*right side of container css*/
+/* order table css*/
+/* order table css*/
+/* order table css*/
+/* order table css*/
+.rightOrderContainer {
+
+    flex-grow: 0.8;
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 8%;
+
+
+
+
+}
+
+
+
+td {
+
+    padding: 12px 24px;
+    font-size: 14px;
+
+    background-color: #fff;
+    border-spacing: 0;
+}
+
+.OrderTable {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.tableheader {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+
+}
+
+.tabledata {
+    height: 8vh;
+    border-bottom: 4px solid #f6f7fb;
+}
+
+/*css for fetched data*/
+
+.id {
+    color: #8c8c8c;
+}
+
+
+.amount {
+    color: #8c8c8c;
+}
+
+.name {
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+}
+
+.status {
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+}
+
+.OrderTable {
+    margin-bottom: 5%;
+}
+
+.date {
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+}
+
+.time {
+    color: #8c8c8c;
+}
+
+/*navigation css*/
+.active {
+    color: #20b883;
+    border-bottom: 3px solid #20b883;
+
+}
+
+/*hover of navigation*/
+
+.loginAnchor:hover {
+    color: #20b883;
+    border-bottom: 3px solid #20b883;
+}

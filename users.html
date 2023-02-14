@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="spin">Kafene</title>
+    <link rel="icon" href="./logo.58169365.png">
+    <link rel="stylesheet" href="user.css">
+    <script src="https://kit.fontawesome.com/40a89b9b78.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="leftItem">
+                <img src="./logo.58169365.png" alt="" class="logo">
+                <p class="logoTitle">Kafene</p>
+            </div>
+            <div class="rightItem">
+                <ul class="items">
+                    <li class="item"><a href="#" id="one" class="loginAnchor orders ">Orders</a></li>
+                    <li class="item"><a href="#" id="two" class="loginAnchor products">Products</a></li>
+                    <li class="item"><a href="#" id="three" class="loginAnchor users">Users</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="logout">
+            <p>Logout &nbsp<span> <i class="fas fa-sign-out"></i></span></p>
+
+        </div>
+    </div>
+
+    <!--user main search-->
+    <div class="userlistContainer">
+        <h1 class="maintitle">Users</h1>
+        <div class="formwrapper">
+            <form action="" class="formContainer">
+                <input type="search" placeholder="Search by Name" class="searchbox">
+                <input type="reset" class="resetBtn" value="Reset">
+            </form>
+        </div>
+    </div>
+
+    <!--user main profiles-->
+
+    <div class="tableContainer">
+
+        <table class="OrderTable">
+            <tr class="orderRow">
+                <th class="tableheader" id="id">ID</th>
+                <th class="tableheader" id="customer">User Avatar</th>
+                <th class="tableheader" id="date">Full Name</th>
+                <th class="tableheader" id="amount">DoB</th>
+                <th class="tableheader" id="status">Gender</th>
+                <th class="tableheader" id="status">Current Location</th>
+            </tr>
+            <tbody class="OrderTable__body"></tbody>
+            <!-- <tr class="tabledata">
+                    <td id="id" class="tabledatafont">Akay</td>
+                    <td class="tabledatafontdark">Sonu</td>
+                    <td class="tabledatafontdark">Yadav</td>
+                    <td id="amount" class="tabledatafont">Papa</td>
+                    <td class="tabledatafontdark">Mummy</td>
+                </tr> -->
+
+
+
+        </table>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="user.js"></script>
+</body>
+
+</html>
